@@ -2,5 +2,15 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  border: 2px solid red;
+}
+
+.header-container {
+  display: flex;
+  background-color: #1f2937;
+  padding: 20px;
+}
+
+.header {
+  border: 1px solid #fff; /* for debugging */
+  width: 900px;
 }
