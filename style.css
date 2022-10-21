@@ -8,9 +8,25 @@
   display: flex;
   background-color: #1f2937;
   padding: 20px;
+  justify-content: center;
 }
 
 .header {
+  display: flex;
   border: 1px solid #fff; /* for debugging */
   width: 900px;
+  justify-content: space-around;
+}
+
+.header-logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.links {
+  border: 1px solid #fff; /* for debugging */
+  display: flex;
+  justify-content: flex-end;
+  color: #e5e7eb;
+  font-size: 18px;
 }
