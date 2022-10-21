@@ -15,7 +15,7 @@
   display: flex;
   border: 1px solid #fff; /* for debugging */
   width: 900px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header-logo {
@@ -27,6 +27,11 @@
   border: 1px solid #fff; /* for debugging */
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   color: #e5e7eb;
   font-size: 18px;
+}
+
+.header-link {
+  margin-left: 20px;
 }
