@@ -13,7 +13,6 @@
 
 .header {
   display: flex;
-  border: 1px solid #fff; /* for debugging */
   width: 900px;
   justify-content: space-between;
 }
@@ -24,7 +23,6 @@
 }
 
 .links {
-  border: 1px solid #fff; /* for debugging */
   display: flex;
   justify-content: flex-end;
   align-items: center;
