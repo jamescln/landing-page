@@ -60,6 +60,13 @@
   flex-direction: column;
 }
 
+.hero-text-nest {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
 .hero-text h1 {
   color: #f9faf8;
   font-size: 48px;
