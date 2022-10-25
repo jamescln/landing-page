@@ -36,7 +36,7 @@
   margin-left: 20px;
 }
 
-/*Hero Styles ____________________*/
+/*||| Hero Styles ____________________*/
 
 .hero-container {
   display: flex;
@@ -97,4 +97,20 @@
   background-color: lightgrey;
   justify-content: center;
   align-items: center;
+}
+
+/*||| Info styles ____________________*/
+
+.info-container {
+  display: flex;
+  height: 300px;
+  background-color: #e5e7eb;
+  justify-content: center;
+  border: 2px solid red; /*for debugging*/
+}
+
+.info {
+  display: flex;
+  width: 700px;
+  justify-content: center;
 }
