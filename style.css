@@ -115,6 +115,7 @@
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 90px;
 }
 
 .info-header {
@@ -141,8 +142,13 @@
 }
 
 .info-box-image {
-  height: 180px;
-  width: 180px;
+  height: 140px;
+  width: 140px;
   border: 2px solid #3882f6;
   border-radius: 0.5rem;
+}
+
+.info-box-subtext {
+  font-size: small;
+  color: grey;
 }
