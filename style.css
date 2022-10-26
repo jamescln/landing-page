@@ -4,6 +4,10 @@
   padding: 0px;
 }
 
+body {
+  font-family: Helvetica, sans-serif;
+}
+
 /*||| Header styles ____________________*/
 
 .header-container {
@@ -72,6 +76,7 @@
   font-size: 48px;
   font-weight: bolder;
   height: 50%;
+  margin-bottom: 20px;
 }
 
 .hero-text p {
@@ -115,7 +120,8 @@
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 90px;
+  padding-bottom: 70px;
+  margin-top: 20px;
 }
 
 .info-header {
