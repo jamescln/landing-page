@@ -154,3 +154,36 @@
   color: grey;
   padding: 0px 35px 0px 35px;
 }
+
+/*||| Quote Styles ____________________*/
+
+.quote-container {
+  display: flex;
+  height: 450px;
+  background-color: #d0d2d6;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  display: flex;
+  width: 800px;
+  flex-direction: column;
+  text-align: left;
+}
+
+.quote-body {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-subtext {
+  padding-top: 10px;
+  display: flex;
+  align-self: flex-end;
+  padding-right: 50px;
+  color: #1f2937;
+  font-size: 24px;
+}
