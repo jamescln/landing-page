@@ -241,3 +241,18 @@ body {
   border-radius: 0.5rem;
   margin-right: 35px;
 }
+
+/*||| Footer Styles ____________________*/
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  height: 60px;
+}
+
+.footer {
+  color: #f9faf8;
+  font-size: 14px;
+}
